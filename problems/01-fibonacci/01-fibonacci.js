@@ -1,9 +1,8 @@
 /* 1. Fibonacci
 Define function: fib(n) 
 Return the nth number in the fibonacci sequence. */
-
-// Memo method
-    let memo = {
+function fib(n) {
+    let memo = { //memo method
         1:0,
         2:1,
     }
@@ -18,6 +17,6 @@ Return the nth number in the fibonacci sequence. */
             return memo[n]
         }
     }
-    
-    console.log(fib(n)); //prints fib(nth)
-    console.log(fib(100)); 
+}
+
+console.log(fib(n)); //prints fib(nth)
