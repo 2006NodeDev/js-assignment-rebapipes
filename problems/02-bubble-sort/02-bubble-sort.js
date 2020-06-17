@@ -18,3 +18,4 @@ function bubbleSort(numArray) {
 }
 
 console.log(bubbleSort([12, 4, 18, 21, 35, 44, 76, 99, 1, 13]));
+console.log(bubbleSort([11, 7, 16, 23, 39, 2, 57, 61, 444, 75, 220, 300]))
