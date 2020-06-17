@@ -19,7 +19,6 @@ function fib(n) {
     }
 }
 
-console.log(fib(n)); //prints fib(nth)
 console.log(fib(1));
 console.log(fib(2));
 console.log(fib(3));
