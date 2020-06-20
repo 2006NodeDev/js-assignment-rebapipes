@@ -33,10 +33,10 @@ function printShape(shape, height, character) {
       break;
       
     case "Triangle":
-      let line = ""
+      let line2 = ""
       for (let i = 1; i <= height; ++i) {
-        line += character
-        console.log(line)
+        line2 += character
+        console.log(line2)
       }
       break;
   
@@ -51,23 +51,26 @@ function printShape(shape, height, character) {
       break;
   
     default:
-      console.log("Invalid shape")
+      console.log("Invalid Shape")
       break;
     }
   }
 
   function printDiamond(shape, height, character){
-    let line = ""
+    let line3 = ""
     for (let i = 0; i < shape; i++) {
-      line += ""
+      line3 += ""
     }
     for (let i = 0; i < height; i++) {
-      line += character
+      line3 += character
     }
     for (let i = 0; i < character; i++) {
-      line += ""
+      line3 += ""
     }
-    console.log(line)
+    console.log(line3)
   }
 
 printShape("Diamond", 5, "*");
+printShape("Square", 4, "%");
+printShape("Triangle", 3, "$");
+printShape("Circle", 2, "!"); // test for validity
