@@ -2,8 +2,11 @@
 Define function: reverseStr(someStr)
 Reverse and return the String. */
 function reverseStr(someStr) {
-    const someStr = ['one', 'two', 'three'];
-    return someStr;
+    return someStr.split("").reverse().join("");
 }
 
-reverseStr(someStr);
+stringOne = "hello world"
+stringTwo = "howdy y\'all"
+console.log(reverseStr(stringOne));
+console.log(reverseStr(stringTwo));
+console.log(reverseStr(stringOne), reverseStr(stringTwo));
